@@ -9,7 +9,7 @@
 
 - 频繁项集   
 
-![](https://github.com/x3e7/dataminingHomework2/master/result/frequent_items.png)
+![](https://github.com/x3e7/dataminingHomework2/blob/master/result/frequent_items.png)
 
 - 强规则（support>min_supprot && conf>min_conf）  
 

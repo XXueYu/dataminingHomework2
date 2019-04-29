@@ -8,14 +8,11 @@
 
 #### 挖掘结果
 
-- 频繁项集  
-![](result/frequent_items.png)
+- 频繁项集    ![](result/frequent_items.png)
 
-- 强规则（support>min_supprot && conf>min_conf）  
-![](result/big_rules.png)
+- 强规则（support>min_supprot && conf>min_conf）    ![](result/big_rules.png)
 
-- 分别利用Lift和全自信度指标对规则的评价（主要对2项集进行评估）    
-![](result/evaluation.png)  
+- 分别利用Lift和全自信度指标对规则的评价（主要对2项集进行评估）      ![](result/evaluation.png)  
 	从Lift指标可以看出，在支持度为0.3，置信度为0.7的条件下，所有发现的规则都是正相关的
 	从全自信度指标可以看出，只有两条规则的all_conf>min_conf
 	这两条规则（有趣的规则）分别是：

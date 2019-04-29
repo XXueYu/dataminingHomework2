@@ -1,13 +1,12 @@
 "# datamining_homework2" 
 
-##利用Apriori算法挖掘挖掘各种品牌店之间的关联
+## 利用Apriori算法挖掘挖掘各种品牌店之间的关联
 
-####数据源：
+#### 数据源：
 
-	取自Consumer & Visitor Insights For Neighborhoods中的related_same_month_brands
-	这些数据记录了此CBG的访客在访问CBG的同一个月访问过的品牌。
+> 取自Consumer & Visitor Insights For Neighborhoods中的related_same_month_brands这些数据记录了此CBG的访客在访问CBG的同一个月访问过的品牌。
 
-####挖掘结果
+#### 挖掘结果
 
 - 频繁项集  
 ![](result/frequent_items.png)
@@ -28,7 +27,7 @@ conf:  0.98 		lift: 1.049 		all_conf: 0.790
 	如下图所示：
 ![](result/insteresting_rules.png)
 
-####结论：
+#### 结论：
 	从以上挖掘可以看出，mcdonalds和walmart 两种品牌是相关的，一般去了其中一家的顾客也会去另一家，由此我们可以猜测，两个品牌的可能价格定位比较相近、风格也可能比较类似。
 
 

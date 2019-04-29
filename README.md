@@ -13,11 +13,11 @@
 
 - 强规则（support>min_supprot && conf>min_conf）  
 
-![](result/big_rules.png)
+![](https://github.com/x3e7/dataminingHomework2/blob/result/big_rules.png)
 
 - 分别利用Lift和全自信度指标对规则的评价（主要对2项集进行评估）
 
-![](result/evaluation.png)  
+![](https://github.com/x3e7/dataminingHomework2/blob/result/evaluation.png)  
 	
 	从Lift指标可以看出，在支持度为0.3，置信度为0.7的条件下，所有发现的规则都是正相关的
 	从全自信度指标可以看出，只有两条规则的all_conf>min_conf
@@ -30,7 +30,7 @@
 
 	如下图所示：
 	
-![](result/insteresting_rules.png)
+![](https://github.com/x3e7/dataminingHomework2/blob/result/insteresting_rules.png)
 
 #### 结论：
 > 从以上挖掘可以看出，mcdonalds和walmart 两种品牌是相关的，一般去了其中一家的顾客也会去另一家，由此我们可以猜测，两个品牌的可能价格定位比较相近、风格也可能比较类似。
